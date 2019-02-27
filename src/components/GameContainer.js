@@ -22,7 +22,7 @@ export default class GameContainer extends Component {
 
   componentDidMount = () => {
 
-    fetch('http://www.randomtext.me/api/')
+    fetch('https://www.randomtext.me/api/')
       .then(data => data.json())
       .then(data => data.text_out.replace(/(<p>)|(<\/p>)/ig, ''))
       .then(text => {
