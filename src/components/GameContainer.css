@@ -1,0 +1,12 @@
+.correct {
+  color: green;
+}
+
+.incorrect {
+  color: red;
+  background-color: burlywood;
+}
+
+.mt-10 {
+  margin-top: 30px;
+}
